@@ -1,0 +1,149 @@
+body {
+  background: rgb(232, 235, 235);
+}
+
+body * {
+  outline: none;
+}
+
+.root-container {
+  padding: 25px;
+    background: #cacaca;
+    margin-top: 30px;
+}
+
+.black-header {
+  padding: 10px;
+  height: 45px;
+  background: black;
+  margin: 0;
+  color: #fff;
+  position: relative;
+}
+
+.black-header p {
+  float: left;
+  font-size: 18px;
+}
+
+.upload-block {
+  margin-top: 10px;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  border: 4px dashed gray; 
+  padding: 35px;
+  background: whitesmoke;
+}
+
+.upload-block .fa-upload {
+  font-size: 40px;
+}
+
+.upload-block p {
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-block * {
+  outline: none;
+}
+
+/* ///////// */
+.file-viewer-block {
+  border: 3px solid;
+  height: 850px;
+  background: rgb(26, 26, 26);
+  overflow-y: auto;
+  border: none;
+  color: lightgray;
+}
+
+/* ////////////////// */
+
+.find-open-button {
+  float: right;
+  padding: 3px 12px;
+  font-weight: bold;
+}
+
+.find-block {
+  position: absolute;
+  height: 36px;
+  width: 345px;
+  background: rgb(16, 15, 15);
+  border: 1px solid rgb(16, 15, 15);
+  top: 53px;
+  right: 10px;
+  padding: 2px;
+  box-shadow: 0px 1px 2px 0px grey;
+}
+
+.find-block input {
+  background: gray;
+  border: navajowhite;
+  height: 30px;
+  width: 210px;
+  padding-right: 45px;
+  padding-left: 5px;
+}
+
+.find-block i {
+  cursor: pointer;
+}
+
+.icon-block {
+  position: absolute;
+  right: 136px;
+  top: 6px;
+  font-size: 18px;
+  color: #100f0f;
+}
+
+.icon-block i {
+  margin-left: 5px;
+}
+
+.find-block span {
+  color: #adaaaa;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.fa-times {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  top: 6px;
+}
+
+.case-ctive {
+  color: #fff;
+}
+
+tt {
+  line-height: 1;
+  background: gray;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.arrow-block {
+  position: absolute;
+  top: 7px;
+  right: 35px
+}
+
+.numbers-block {
+  font-size: 15px;
+}
+
+.arrow-block .fa-arrow-down {
+  margin-right: 4px;
+}
+
+.target-finded {
+  color: red;
+  background: #737373;
+}
